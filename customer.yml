@@ -7,7 +7,7 @@ spring.jpa.database-platform: "org.hibernate.dialect.H2Dialect"
 spring.h2.console.enabled: "true"
 spring.h2.console.path: "/h2-console"
 eureka.instance.instance-id: ${spring.application.name}:${random.value}
-eureka.client.serviceURL.defaultZone: "http://localhost:9991/eureka"
+eureka.client.serviceURL.defaultZone: "http://localhost:9991/eurekaserver"
 eureka.instance.prefer-ip-address: "true"
 eureka.client.register-with-eureka: "true"
 eureka.client.fetch-registry: "true"
